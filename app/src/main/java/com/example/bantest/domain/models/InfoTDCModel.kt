@@ -7,4 +7,4 @@ data class InfoTDCModel(@SerializedName("pkTarjetaCreditoID") val idCreditCard: 
                         @SerializedName("Numero_Tarjeta") val cardName: String,
                         @SerializedName("Titular_Tarjeta") val cardHolder: String,
                         @SerializedName("Fecha_Exp") val expectationDate: String,
-                        @SerializedName("CVV") val cvv: Int)
+                        @SerializedName("CVV") val cvv: String)

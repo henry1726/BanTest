@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/informationCardFragment">
 
+    <fragment
+        android:id="@+id/informationCardFragment"
+        android:name="com.example.bantest.ui.InformationCardFragment"
+        android:label="fragment_information_card"
+        tools:layout="@layout/fragment_information_card" />
 </navigation>

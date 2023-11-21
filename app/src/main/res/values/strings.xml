@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BanTest</string>
+    <string name="title_card_number">Número de la tarjeta</string>
+    <string name="title_bank">Banco</string>
+    <string name="title_card_holder">Titular de la tarjeta</string>
+    <string name="title_exp_date">Fecha de expiración</string>
+    <string name="title_generate_cvv">Generar CVV</string>
+    <string name="title_cvv">CVV</string>
+    <string name="format_amount">-$ %s</string>
 </resources>
